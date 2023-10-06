@@ -1,0 +1,1 @@
+{"uuid":"d427c7a1-463f-4a59-89cd-84f36a8696f2","name":"com.qa.api.tests.TrelloGetBoard","children":["210d22a6-bf84-4ada-9e5e-dd1daf9f15a4"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1696607546336,"stop":1696607546542}],"afters":[],"start":1696607546289,"stop":1696607550718}

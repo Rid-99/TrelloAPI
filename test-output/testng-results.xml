@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-06T17:26:54 GMT-04:00" name="TestNG Regression Suite" finished-at="2023-10-06T17:27:04 GMT-04:00" duration-ms="9130">
+    <groups>
+    </groups>
+    <test started-at="2023-10-06T17:26:54 GMT-04:00" name="Trello Test" finished-at="2023-10-06T17:27:04 GMT-04:00" duration-ms="9130">
+      <class name="tests.TrelloList">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TrelloList@41de5768]" started-at="2023-10-06T17:26:59 GMT-04:00" name="setup" finished-at="2023-10-06T17:26:59 GMT-04:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createBoard()[pri:1, instance:tests.TrelloList@41de5768]" started-at="2023-10-06T17:26:59 GMT-04:00" name="createBoard" finished-at="2023-10-06T17:27:00 GMT-04:00" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method signature="createList()[pri:2, instance:tests.TrelloList@41de5768]" started-at="2023-10-06T17:27:00 GMT-04:00" name="createList" finished-at="2023-10-06T17:27:01 GMT-04:00" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createList -->
+        <test-method signature="getList()[pri:3, instance:tests.TrelloList@41de5768]" started-at="2023-10-06T17:27:01 GMT-04:00" name="getList" finished-at="2023-10-06T17:27:02 GMT-04:00" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getList -->
+        <test-method signature="updateList()[pri:4, instance:tests.TrelloList@41de5768]" started-at="2023-10-06T17:27:02 GMT-04:00" name="updateList" finished-at="2023-10-06T17:27:03 GMT-04:00" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateList -->
+        <test-method signature="archivelist()[pri:5, instance:tests.TrelloList@41de5768]" started-at="2023-10-06T17:27:03 GMT-04:00" name="archivelist" finished-at="2023-10-06T17:27:03 GMT-04:00" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- archivelist -->
+        <test-method signature="moveToBoard()[pri:6, instance:tests.TrelloList@41de5768]" started-at="2023-10-06T17:27:03 GMT-04:00" name="moveToBoard" finished-at="2023-10-06T17:27:03 GMT-04:00" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToBoard -->
+        <test-method signature="deleteBoard()[pri:7, instance:tests.TrelloList@41de5768]" started-at="2023-10-06T17:27:03 GMT-04:00" name="deleteBoard" finished-at="2023-10-06T17:27:04 GMT-04:00" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+      </class> <!-- tests.TrelloList -->
+      <class name="tests.TrelloBoard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TrelloBoard@54a3ab8f]" started-at="2023-10-06T17:26:54 GMT-04:00" name="setup" finished-at="2023-10-06T17:26:55 GMT-04:00" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createBoard()[pri:1, instance:tests.TrelloBoard@54a3ab8f]" started-at="2023-10-06T17:26:55 GMT-04:00" name="createBoard" finished-at="2023-10-06T17:26:59 GMT-04:00" duration-ms="4435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method signature="getBoard()[pri:2, instance:tests.TrelloBoard@54a3ab8f]" started-at="2023-10-06T17:27:00 GMT-04:00" name="getBoard" finished-at="2023-10-06T17:27:00 GMT-04:00" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoard -->
+        <test-method signature="updateBoard()[pri:3, instance:tests.TrelloBoard@54a3ab8f]" started-at="2023-10-06T17:27:01 GMT-04:00" name="updateBoard" finished-at="2023-10-06T17:27:01 GMT-04:00" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBoard -->
+        <test-method signature="deleteBoard()[pri:4, instance:tests.TrelloBoard@54a3ab8f]" started-at="2023-10-06T17:27:02 GMT-04:00" name="deleteBoard" finished-at="2023-10-06T17:27:02 GMT-04:00" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+      </class> <!-- tests.TrelloBoard -->
+    </test> <!-- Trello Test -->
+  </suite> <!-- TestNG Regression Suite -->
+</testng-results>
